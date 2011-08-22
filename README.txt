@@ -1,10 +1,10 @@
-�u�A�N�V�����Q�[�� �A���S���Y���}�j�A�b�N�X�v�̃A���S���Y����Ruby�ŏ��������́B
-DXRuby���g�p���Ă��邽�߁A
+「アクションゲーム アルゴリズムマニアックス」のアルゴリズムをRubyで書いたもの。
+DXRubyを使用しているため、
 http://dxruby.sourceforge.jp/files/dxkit1_108_ruby18.zip
-��game.exe�𒼉��ɒu����game.exe�����s���Ďg�p����B
-�܂��A�摜�͏��Еt�^��CD-ROM�̂��̂��g�p���Ă���B
-CD-ROM��Action/Texture��/texture�ɒu���B
+のgame.exeを直下に置いてgame.exeを実行して使用する。
+また、画像は書籍付録のCD-ROMのものを使用している。
+CD-ROMのAction/Textureを/textureに置く。
 
-���Ђ̊e��(stage)�̊e���1�̃N���X�Ƃ���stage*.rb�ɒu���Ă���B
-main.rb�́uDEMO = ***�v�� *** ��stage*.rb�̃N���X�ɂ��邱�ƂŁA
-���̃N���X�̃v���O���������s�ł���B
+書籍の各章(stage)の各例を1つのクラスとしてstage*.rbに置いている。
+main.rbの「DEMO = ***」の *** をstage*.rbのクラスにすることで、
+そのクラスのプログラムを実行できる。
